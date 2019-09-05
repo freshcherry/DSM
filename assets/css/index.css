@@ -44,6 +44,7 @@ header nav .login #login {
   color: #fff;
   padding: 5px 20px;
   border-radius: 3px;
+  cursor: pointer;
 }
 header .header-container {
   display: -webkit-box;
@@ -371,4 +372,339 @@ header .header-container .header-video img {
 }
 .services-inbox img, .services-team img, .services-settings img, .services-feed img {
   margin-right: 15px;
+}
+
+.testimonials {
+  width: 100%;
+  height: 450px;
+  background-image: url("../images/testimonials/back2.png");
+}
+.testimonials-container {
+  width: 80%;
+  margin: 0 auto;
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.testimonials-container .container-customers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 35%;
+  height: 370px;
+}
+.testimonials-container .container-customers .customers-info {
+  width: 90%;
+}
+.testimonials-container .container-customers .customers-info h3 {
+  font-size: 36px;
+  color: #fff;
+}
+.testimonials-container .container-customers .customers-info p {
+  font-size: 16px;
+  color: #fff;
+}
+.testimonials-container .container-customers .customers-button {
+  width: 90%;
+}
+.testimonials-container .container-customers .customers-button #btn-get {
+  background-color: #061e37;
+  border: 1px solid #061e37;
+  margin-right: 15px;
+  color: #fff;
+  width: 150px;
+  height: 45px;
+  font-size: 13px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.testimonials-container .container-comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+}
+.testimonials-container .container-comments .comments-doe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.testimonials-container .container-comments .comments-khalessi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.testimonials-container .container-comments .comment {
+  width: 80%;
+  height: 85px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 25px 20px;
+  color: #ACBFC7;
+  line-height: 25px;
+  font-style: italic;
+}
+.testimonials-container .container-comments .comment h4 {
+  font-style: normal;
+  color: #000;
+}
+.testimonials-container .container-comments .comment p {
+  font-size: 15px;
+}
+
+.team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: 50px 0;
+}
+.team .teams-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+  margin: 10px auto;
+}
+.team .teams-header h3 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.team .teams-header p {
+  text-align: center;
+  color: #ACBFC7;
+}
+.team .team-avatars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+.team .team-avatars .team-avatar {
+  margin: 60px 20px 30px;
+}
+.team .team-detalis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  text-align: center;
+  color: #ACBFC7;
+}
+.team .team-detalis h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #000;
+}
+.team .team-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15%;
+  margin: 20px auto 50px;
+}
+
+.contacts {
+  width: 100%;
+  background-image: url("../images/about us/bg.png");
+  padding-bottom: 30px;
+}
+.contacts-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35%;
+  margin: 35px auto;
+  text-align: center;
+}
+.contacts-header h4 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.contacts-fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 40%;
+  margin: 0 auto;
+}
+.contacts-fields .field {
+  width: 35%;
+  margin-bottom: 15px;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  background-color: #fafafa;
+  border-radius: 5px;
+}
+.contacts-fields textarea {
+  width: 85%;
+  border-color: #000;
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.contacts-checkandbtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 37%;
+  margin: 15px auto 0;
+}
+.contacts-checkandbtn #btn-send {
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: 1px solid #00eab5;
+  background-color: #00eab5;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  background-image: url("../images/footer/bg.png");
+}
+footer nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+footer nav menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+footer nav menu ul li {
+  color: #fff;
+  font-size: 15px;
+  margin: 0 25px;
+}
+footer .bottom-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+footer .bottom-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  color: #fff;
+  font-size: 15px;
+}
+footer .bottom-menu ul li:nth-child(even) {
+  margin: 0 25px;
+}
+footer .social img {
+  margin: 0 10px;
 }
