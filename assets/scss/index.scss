@@ -364,7 +364,8 @@ header {
 .testimonials {
   width: 100%;
   height: 450px;
-  background-image: url("../images/testimonials/back2.png");
+  background: linear-gradient(45deg, rgba(0,186,214, 0.6), rgba(0,234,181, 0.6)),
+              url("../images/testimonials/back1.png");
 
   &-container {
     width: 80%;
