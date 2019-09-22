@@ -649,6 +649,7 @@ header .header-container .header-video img {
   background-color: #00eab5;
   color: #fff;
   cursor: pointer;
+  outline: none;
 }
 
 footer {

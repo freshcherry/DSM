@@ -1,0 +1,359 @@
+@media screen and (max-width: 320px) {
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: auto;
+  }
+
+  body {
+    max-width: 320px;
+    height: auto;
+  }
+  body header {
+    padding: 20px 0;
+    height: auto;
+  }
+  body header nav {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: auto;
+  }
+  body header nav .burger {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+  }
+  body header nav .burger-item {
+    width: 100%;
+    height: 3px;
+    margin: 4px 0;
+    background-color: #000;
+  }
+  body header nav menu {
+    width: 100%;
+    height: auto;
+    background-color: #00e6b3;
+    margin-top: 20px;
+  }
+  body header nav menu .main-menu {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body header nav menu .main-menu .menu-item {
+    font-size: 18px;
+    margin: 10px 25px;
+    padding: 10px 0;
+  }
+  body header nav menu .main-menu .menu-item:hover {
+    cursor: pointer;
+    background-color: #00bd8d;
+  }
+  body header nav menu .main-menu .menu-item--active {
+    margin: 0 25px;
+    font-size: 18px;
+  }
+  body header nav .login {
+    display: none;
+  }
+  body header .header-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+  }
+  body header .header-container .header-description {
+    width: 85%;
+    padding: 20px 0;
+    margin: 0 auto;
+  }
+  body header .header-container .header-description .header-lorem1 {
+    width: 100%;
+    margin: 20px auto;
+    font-size: 24px;
+    text-align: center;
+  }
+  body header .header-container .header-description .header-lorem2 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  body header .header-container .header-description .btn-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 20px 0;
+  }
+  body header .header-container .header-description .btn-wrapper .btn {
+    width: 40%;
+    height: 30px;
+  }
+  body header .header-container .header-video {
+    display: none;
+  }
+  body .easyuseful {
+    margin: 20px 0;
+  }
+  body .easyuseful-header {
+    width: 90%;
+    margin: 0 auto;
+  }
+  body .easyuseful-description {
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  body .easyuseful-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px 0;
+    margin: 20px auto !important;
+  }
+  body .easyuseful-container .col {
+    width: 90% !important;
+    margin: 20px auto !important;
+    height: auto !important;
+  }
+  body .count {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  body .count .count-wrapper {
+    width: 100%;
+    height: 100px;
+  }
+  body .services {
+    width: 80%;
+    margin: 20px auto;
+  }
+  body .services-header {
+    width: 100%;
+  }
+  body .services-statistics {
+    width: 100%;
+    margin: 20px auto;
+    height: auto;
+  }
+  body .services-statistics .statistics-description {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 15px 0;
+  }
+  body .services-statistics .statistics-description .description-photo {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+  body .services-statistics .statistics-description .description-photo img {
+    width: 100%;
+    height: auto;
+  }
+  body .services-statistics .statistics-description .description-info {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  body .services-inbox, body .services-team, body .services-settings, body .services-feed {
+    width: 100%;
+    margin: 20px auto;
+  }
+  body .testimonials {
+    height: auto;
+  }
+  body .testimonials .testimonials-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .testimonials .testimonials-container .container-customers {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+  }
+  body .testimonials .testimonials-container .container-customers .customers-info {
+    margin: 20px 0;
+  }
+  body .testimonials .testimonials-container .container-customers .customers-info h3 {
+    font-size: 24px;
+  }
+  body .testimonials .testimonials-container .container-customers .customers-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .testimonials .testimonials-container .container-customers .customers-button #btn-get {
+    height: 35px;
+  }
+  body .testimonials .testimonials-container .container-comments {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  body .testimonials .testimonials-container .container-comments .comments-doe, body .testimonials .testimonials-container .container-comments .comments-khalessi {
+    margin: 15px 0;
+  }
+  body .testimonials .testimonials-container .container-comments .comments-doe .comment, body .testimonials .testimonials-container .container-comments .comments-khalessi .comment {
+    height: auto;
+  }
+  body .team {
+    margin: 20px 0;
+  }
+  body .team .teams-header {
+    width: 90%;
+    margin: 0 auto;
+  }
+  body .team .team-avatars {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .team .team-avatars .team-avatar {
+    margin: 20px 10px 10px;
+  }
+  body .team .team-detalis {
+    width: 90%;
+    margin: 0 auto;
+  }
+  body .team .team-social {
+    width: 80%;
+    margin: 20px auto;
+  }
+  body .contacts-header {
+    width: 90%;
+    margin: 20px auto 50px;
+  }
+  body .contacts-fields {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+  }
+  body .contacts-fields .field {
+    width: 100%;
+    outline: none;
+  }
+  body .contacts-fields textarea {
+    width: 100%;
+    outline: none;
+  }
+  body .contacts-checkandbtn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+    margin: 20px auto;
+  }
+  body .contacts-checkandbtn #btn-send {
+    margin: 20px auto;
+    width: 150px;
+    height: 35px;
+    padding: 0;
+  }
+  body footer {
+    height: auto;
+  }
+  body footer nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px 0;
+    height: auto;
+  }
+  body footer nav .logo {
+    width: 70%;
+    margin: 0 auto;
+  }
+  body footer nav menu {
+    margin: 20px 0;
+  }
+  body footer nav menu ul.main-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body footer nav menu ul.main-menu li {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+  body footer .bottom-menu {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+  }
+  body footer .bottom-menu ul {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 10px 0;
+    width: 100%;
+  }
+  body footer .bottom-menu .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 10px 0;
+    width: 100%;
+  }
+}

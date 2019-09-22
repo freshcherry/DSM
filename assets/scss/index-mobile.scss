@@ -1,0 +1,363 @@
+@mixin displaydefault {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+// ========= mobile ==============
+@media screen and (max-width: 320px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+  }
+
+  body {
+    max-width: 320px;
+    height: auto;
+
+    header {
+      padding: 20px 0;
+      height: auto;
+
+      nav {
+        flex-wrap: wrap;
+        height: auto;
+
+        .burger {
+          width: 30px;
+          height: auto;
+          cursor: pointer;
+
+          &-item {
+            width: 100%;
+            height: 3px;
+            margin: 4px 0;
+            background-color: #000;
+          }
+        }
+
+        menu {
+          width: 100%;
+          height: auto;
+          background-color: #00e6b3;
+          margin-top: 20px;
+
+          .main-menu {
+            width: 100%;
+            flex-direction: column;
+
+            .menu-item {
+              font-size: 18px;
+              margin: 10px 25px;
+              padding: 10px 0;
+
+              &:hover {
+                cursor: pointer;
+                background-color: #00bd8d;
+              }
+            }
+
+            .menu-item--active {
+              margin: 0 25px;
+              font-size: 18px;
+            }
+          }
+        }
+
+        .login {
+          display: none;
+        }
+      }
+
+      .header-container {
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+
+        .header-description {
+          width: 85%;
+          padding: 20px 0;
+          margin: 0 auto;
+
+          .header-lorem1 {
+            width: 100%;
+            margin: 20px auto;
+            font-size: 24px;
+            text-align: center;
+          }
+
+          .header-lorem2 {
+            width: 100%;
+            margin: 0 auto;
+            text-align: justify;
+          }
+
+          .btn-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px 0;
+
+            .btn {
+              width: 40%;
+              height: 30px;
+            }
+          }
+        }
+
+        .header-video {
+          display: none;
+        }
+      }
+    }
+
+    .easyuseful {
+      margin: 20px 0;
+
+      &-header {
+        width: 90%;
+        margin: 0 auto;
+      }
+
+      &-description {
+        width: 90% !important;
+        margin: 0 auto;
+      }
+
+      &-container {
+        flex-direction: column;
+        padding: 20px 0;
+        margin: 20px auto !important;
+
+        .col {
+          width: 90% !important;
+          margin: 20px auto !important;
+          height: auto !important;
+        }
+      }
+    }
+
+    .count {
+      flex-direction: column;
+      height: auto;
+
+      .count-wrapper {
+        width: 100%;
+        height: 100px;
+      }
+    }
+
+    .services {
+      width: 80%;
+      margin: 20px auto;
+
+      &-header {
+        width: 100%;
+      }
+
+      &-statistics {
+        width: 100%;
+        margin: 20px auto;
+        height: auto;
+
+        .statistics-description {
+          flex-direction: column;
+          flex-wrap: wrap;
+          padding: 15px 0;
+
+          .description-photo {
+            width: 90%;
+            height: auto;
+            margin: 0 auto;
+
+            img {
+              width: 100%;
+              height: auto;
+            }
+          }
+
+          .description-info {
+            width: 90%;
+            height: auto;
+            margin: 0 auto;
+            text-align: justify;
+          }
+        }
+      }
+
+      &-inbox, &-team, &-settings, &-feed {
+        width: 100%;
+        margin: 20px auto;
+      }
+    }
+
+    .testimonials {
+      height: auto;
+
+      .testimonials-container {
+        flex-direction: column;
+
+        .container-customers {
+          justify-content: flex-start;
+          align-items: center;
+          width: 100%;
+          height: auto;
+          padding: 20px 0;
+
+          .customers-info {
+            margin: 20px 0;
+
+            h3 {
+              font-size: 24px;
+            }
+          }
+
+          .customers-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            #btn-get {
+              height: 35px;
+            }
+          }
+        }
+
+        .container-comments {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+
+          .comments-doe, .comments-khalessi {
+            margin: 15px 0;
+
+            .comment {
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+
+    .team {
+      margin: 20px 0;
+
+      .teams-header {
+        width: 90%;
+        margin: 0 auto;
+      }
+
+      .team-avatars {
+        flex-direction: column;
+
+        .team-avatar {
+          margin: 20px 10px 10px;
+        }
+      }
+
+      .team-detalis {
+        width: 90%;
+        margin: 0 auto;
+      }
+
+      .team-social {
+        width: 80%;
+        margin: 20px auto;
+      }
+    }
+
+
+    .contacts {
+      &-header {
+        width: 90%;
+        margin: 20px auto 50px;
+      }
+
+      &-fields {
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+
+        .field {
+          width: 100%;
+          outline: none;
+        }
+
+        textarea {
+          width: 100%;
+          outline: none;
+        }
+      }
+
+      &-checkandbtn {
+        flex-direction: column;
+        width: 90%;
+        margin: 20px auto;
+
+        #btn-send {
+          margin: 20px auto;
+          width: 150px;
+          height: 35px;
+          padding: 0;
+        }
+      }
+    }
+
+
+    footer {
+      height: auto;
+
+      nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        height: auto;
+
+        .logo {
+          width: 70%;
+          margin: 0 auto;
+        }
+
+        menu {
+          margin: 20px 0;
+
+          ul.main-menu {
+            @include displaydefault;
+
+            li {
+              font-size: 18px;
+              padding: 10px 0;
+            }
+          }
+        }
+      }
+
+      .bottom-menu {
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+
+        ul {
+          align-items: center;
+          margin: 10px 0;
+          width: 100%;
+        }
+
+        .social {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: 10px 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
